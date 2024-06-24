@@ -1,0 +1,36 @@
+export const colors = {
+  primary: {
+    primary50: '#c8d8ff',
+    primary100: '#a0bbff',
+    primary200: '#789fff',
+    primary300: '#5182ff',
+    primary400: '#2763ff',
+    primary500: '#1858f8',
+    primary600: '#0f4dea',
+    primary700: '#1449cd',
+    primary800: '#1844b1',
+    primary900: '#1b3e97',
+  },
+  background: '#DEECF9',
+  white: '#FFFFFF',
+  textColor: '#232323',
+  textDisabled: '#959595',
+};
+
+export const themeColors = {
+  primary0: colors.primary.primary400,
+  primary50: colors.primary.primary50,
+  primary100: colors.primary.primary100,
+  primary200: colors.primary.primary200,
+  primary300: colors.primary.primary300,
+  primary400: colors.primary.primary400,
+  primary500: colors.primary.primary500,
+  primary600: colors.primary.primary600,
+  primary700: colors.primary.primary700,
+  primary800: colors.primary.primary800,
+  primary900: colors.primary.primary900,
+  background: colors.background,
+  white: colors.white,
+  textColor: colors.textColor,
+  textDisabled: colors.textDisabled,
+};
